@@ -1,0 +1,3 @@
+[submodule "mokumoku"]
+	path = mokumoku
+	url = https://github.com/yymm/mokumoku.git

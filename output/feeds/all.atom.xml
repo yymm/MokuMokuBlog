@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>もくもくブログ</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2015-04-08T08:12:24+09:00</updated><entry><title>Makitaのハンディクリーナー</title><link href="/makitanohandeikurina.html" rel="alternate"></link><updated>2015-04-08T08:12:24+09:00</updated><author><name>yuya yano</name></author><id>tag:,2015-04-08:makitanohandeikurina.html</id><summary type="html">&lt;p&gt;&lt;img alt="makita" src="http://www.makita.co.jp/product/li_ion/cl142fdrfw/images/cl142fdrfw_big.jpg" /&gt;&lt;/p&gt;
+&lt;h1&gt;良さ&lt;/h1&gt;
+&lt;p&gt;紙パック式！ 新・フロントカバー採用
+ボタンを押せばフロントカバーがオープン。ゴミ捨てが更に手軽になりました。
+A. フロントカバーを完全にはずす必要が無いので高能率。&lt;/p&gt;
+&lt;p&gt;使い捨ての紙パック10枚（抗菌仕様）、繰り返し使えるダストバッグ1枚付。&lt;/p&gt;
+&lt;h1&gt;凄み&lt;/h1&gt;
+&lt;p&gt;メリットデメリットあるのでどちらが優れているわけではありませんが…
+ゴミに触れるのにさほど抵抗がなければ、カプセル式が個人的にはオススメです。
+吸引力もカプセル式の方が勝るという話も。&lt;/p&gt;
+&lt;p&gt;こまめにスイッチが切れるので節電効果があるトリガ式スイッチ。
+業務用のマキタならではの仕様ですが、家庭で使用する分にはそんなにメリットがない気がします。
+使用感に不安がある方はワンタッチスイッチがおすすめ。&lt;/p&gt;</summary><category term="Ramen"></category></entry><entry><title>ラーメン</title><link href="/ramen.html" rel="alternate"></link><updated>2015-04-08T08:12:24+09:00</updated><author><name>yuya yano</name></author><id>tag:,2015-04-08:ramen.html</id><summary type="html">&lt;p&gt;&lt;img alt="ramen" src="https://pbs.twimg.com/media/CIu6hLSUkAI6sCw.jpg" /&gt;&lt;/p&gt;</summary><category term="Ramen"></category></entry><entry><title>Nodejsでスクレイピング</title><link href="/nodejsdesukureipingu.html" rel="alternate"></link><updated>2015-04-03T08:12:24+09:00</updated><author><name>yuya yano</name></author><id>tag:,2015-04-03:nodejsdesukureipingu.html</id><summary type="html">&lt;p&gt;調べた。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/ruipgil/scraperjs" title="ruipgil/scraperjs"&gt;ruipgil/scraperjs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;これが軽そうだし、CSSセレクタぽい記述できるし、いい感じ。軽そうだし。&lt;/p&gt;
+&lt;p&gt;日本語の情報で多いのもあるけど、ステマぽい記事&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://qiita.com/ktty1220/items/e9e42247ede476d04ce2" title="JavaScript - Node.js用のスクレイピングモジュール「cheerio-httpcli」の紹介 - Qiita"&gt;JavaScript - Node.js用のスクレイピングモジュール「cheerio-httpcli」の紹介 - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://qiita.com/ktty1220/items/64168e8d416d6d8ffb45" title="Node.jsのスクレイピングモジュール「cheerio-httpcli」が大規模アップデートして帰ってきた - Qiita"&gt;Node.jsのスクレイピングモジュール「cheerio-httpcli」が大規模アップデートして帰ってきた - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;cheerioは高機能で良さそう。デファクトぽい。&lt;/p&gt;
+&lt;p&gt;yosuke_furuyawaさんのもあるけどちょっと情報が古い(Qiita初投稿?!)&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://qiita.com/yosuke_furukawa/items/c17c5aac348b6ed29294" title="JavaScript - Node.jsのScraperでお手軽スクレイピング！ - Qiita"&gt;JavaScript - Node.jsのScraperでお手軽スクレイピング！ - Qiita&lt;/a&gt;&lt;/p&gt;</summary><category term="node.js"></category></entry><entry><title>Rust - よく戻り値で使われる core::result</title><link href="/rust-yokuli-rizhi-deshi-wareru-coreresult.html" rel="alternate"></link><updated>2014-12-15T05:43:45+09:00</updated><author><name>yuya yano</name></author><id>tag:,2014-12-15:rust-yokuli-rizhi-deshi-wareru-coreresult.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="http://doc.rust-lang.org/core/result/"&gt;core::result - Rust&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;matchで受けるような設計になっている。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;match&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;res&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nb"&gt;Ok&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;println&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;OK: {}&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nb"&gt;Err&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;e&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;println&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Err: {}&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;e&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;FileIOのWriteなどもこの戻り値になっている。いろんなところで使われているEnum。&lt;/p&gt;
+</summary><category term="Rust"></category></entry><entry><title>完全負け組なモバイルWebが、これから復活する(多分)</title><link href="/wan-quan-fu-kezu-namobairuwebga-korekarafu-huo-suruduo-fen.html" rel="alternate"></link><updated>2014-06-29T05:43:45+09:00</updated><author><name>yuya yano</name></author><id>tag:,2014-06-29:wan-quan-fu-kezu-namobairuwebga-korekarafu-huo-suruduo-fen.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="http://www.slideshare.net/kawada_hiroshi/web-49396584"&gt;完全負け組なモバイルWebが、これから復活する(多分)&lt;/a&gt;&lt;/p&gt;
+&lt;iframe src="//www.slideshare.net/slideshow/embed_code/key/gHsDWvIbVMEZ6C" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen&gt; &lt;/iframe&gt; &lt;div style="margin-bottom:5px"&gt; &lt;strong&gt; &lt;a href="//www.slideshare.net/kawada_hiroshi/web-49396584" title="完全負け組なモバイルWebが、これから復活する(多分)" target="_blank"&gt;完全負け組なモバイルWebが、これから復活する(多分)&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href="//www.slideshare.net/kawada_hiroshi" target="_blank"&gt;Hiroshi Kawada&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;</summary><category term="Slide"></category></entry><entry><title>Markdownも使えるPelican</title><link href="/markdownmoshi-erupelican.html" rel="alternate"></link><updated>2014-06-17T08:12:24+09:00</updated><author><name>yuya yano</name></author><id>tag:,2014-06-17:markdownmoshi-erupelican.html</id><summary type="html">&lt;h1&gt;Markdown対応&lt;/h1&gt;
+&lt;p&gt;GFM使えます。滅多に使えわないけどテーブル使えます。CSS書いてないから残念な感じだけど。&lt;/p&gt;
+&lt;p&gt;Codeはhighlight.jsを使って、いろんな言語使えます。&lt;/p&gt;
+&lt;p&gt;フロンドで処理してるから、Previewとかもできないことはない。&lt;/p&gt;
+&lt;h2&gt;table&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Left-Aligned&lt;/th&gt;
+&lt;th align="center"&gt;Center Aligned&lt;/th&gt;
+&lt;th align="right"&gt;Right Aligned&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;col 3 is&lt;/td&gt;
+&lt;td align="center"&gt;some wordy text&lt;/td&gt;
+&lt;td align="right"&gt;$1600&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;col 2 is&lt;/td&gt;
+&lt;td align="center"&gt;centered&lt;/td&gt;
+&lt;td align="right"&gt;$12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;zebra stripes&lt;/td&gt;
+&lt;td align="center"&gt;are neat&lt;/td&gt;
+&lt;td align="right"&gt;$1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;underscore&lt;/h2&gt;
+&lt;p&gt;_ hoge
+_ hige&lt;/p&gt;
+&lt;h2&gt;Strikethrough&lt;/h2&gt;
+&lt;p&gt;&lt;del&gt;ReSTはｵﾜｺﾝ&lt;/del&gt;&lt;/p&gt;
+&lt;h1&gt;Code&lt;/h1&gt;
+&lt;p&gt;highlight.jsが対応している範囲は使える&lt;/p&gt;
+&lt;h2&gt;golang&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c1"&gt;// You can edit this code!&lt;/span&gt;
+&lt;span class="c1"&gt;// Click here and start typing.&lt;/span&gt;
+&lt;span class="kn"&gt;package&lt;/span&gt; &lt;span class="nx"&gt;main&lt;/span&gt;
+
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;fmt&amp;quot;&lt;/span&gt;
+
+&lt;span class="kd"&gt;func&lt;/span&gt; &lt;span class="nx"&gt;main&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nx"&gt;fmt&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;Println&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Hello, 世界&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;rustlang&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c1"&gt;// This code is editable and runnable!&lt;/span&gt;
+&lt;span class="k"&gt;fn&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;main&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="c1"&gt;// A simple integer calculator:&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="c1"&gt;// `+` or `-` means add or subtract by 1&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="c1"&gt;// `*` or `/` means multiply or divide by 2&lt;/span&gt;
+
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="kd"&gt;let&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;program&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s"&gt;&amp;quot;+ + * - /&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="kd"&gt;let&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;mut&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;accumulator&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;token&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;in&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;program&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;chars&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;match&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;token&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;            &lt;/span&gt;&lt;span class="sc"&gt;&amp;#39;+&amp;#39;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;accumulator&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;+=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;            &lt;/span&gt;&lt;span class="sc"&gt;&amp;#39;-&amp;#39;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;accumulator&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;-=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;            &lt;/span&gt;&lt;span class="sc"&gt;&amp;#39;*&amp;#39;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;accumulator&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;*=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;            &lt;/span&gt;&lt;span class="sc"&gt;&amp;#39;/&amp;#39;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;accumulator&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;/=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;            &lt;/span&gt;&lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="cm"&gt;/* ignore everything else */&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nb"&gt;println&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;The program &lt;/span&gt;&lt;span class="se"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;{}&lt;/span&gt;&lt;span class="se"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="s"&gt; calculates the value {}&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;              &lt;/span&gt;&lt;span class="n"&gt;program&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;accumulator&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;Highlight&lt;/h3&gt;
+&lt;p&gt;地味に違う&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="http://i.gyazo.com/701a7d069c4c4696794f9990b89f2b69.png" /&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;AllButPattern&lt;/span&gt;
+  &lt;span class="no"&gt;Match&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="no"&gt;Struct&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;new&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="ss"&gt;:captures&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+  &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;initialize&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;except&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="vi"&gt;@except&lt;/span&gt;   &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;except&lt;/span&gt;
+    &lt;span class="vi"&gt;@captures&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="no"&gt;Match&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;new&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;[]&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+  &lt;span class="k"&gt;end&lt;/span&gt;
+
+  &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;match&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;str&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="vi"&gt;@captures&lt;/span&gt; &lt;span class="k"&gt;unless&lt;/span&gt; &lt;span class="vi"&gt;@except&lt;/span&gt; &lt;span class="o"&gt;===&lt;/span&gt; &lt;span class="n"&gt;str&lt;/span&gt;
+  &lt;span class="k"&gt;end&lt;/span&gt;
+&lt;span class="k"&gt;end&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;all_but&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pattern&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+  &lt;span class="no"&gt;AllButPattern&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;new&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pattern&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;end&lt;/span&gt;
+
+&lt;span class="n"&gt;get&lt;/span&gt; &lt;span class="n"&gt;all_but&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;/index&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;do&lt;/span&gt;
+  &lt;span class="c1"&gt;# ...&lt;/span&gt;
+&lt;span class="k"&gt;end&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="Markdown"></category></entry><entry><title>ﾎﾟｴﾑ</title><link href="/hoemu.html" rel="alternate"></link><updated>2014-05-17T08:12:24+09:00</updated><author><name>yuya yano</name></author><id>tag:,2014-05-17:hoemu.html</id><summary type="html">&lt;p&gt;これはポエム&lt;/p&gt;
+&lt;p&gt;「ポエム化は、商品・サービスの圧倒的な価値を作りにくくなった時代を象徴している」──。&lt;/p&gt;
+&lt;p&gt;そう語るのは、人材コンサルタントの常見陽平さんだ。商品やサービスの品質が高まり、なかなか差別化できないから、ポエム＝ゆるふわな表現で訴えかけるしかないのだという。&lt;/p&gt;
+&lt;p&gt;その代表例が、俗に「マンションポエム」と呼ばれるものだ。「邸」「丘」「杜」「住まう」といった格調高そうな言葉を過剰に使うマンション広告のキャッチコピーである。&lt;/p&gt;
+&lt;h1&gt;なにをいってるんだ&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ポエム
+とは
+なんだ&lt;/p&gt;
+&lt;/blockquote&gt;</summary><category term="Poem"></category></entry><entry><title>麻婆豆腐のレシピ的な</title><link href="/ma-po-dou-fu-noreshipide-na.html" rel="alternate"></link><updated>2014-05-17T08:12:24+09:00</updated><author><name>yuya yano</name></author><id>tag:,2014-05-17:ma-po-dou-fu-noreshipide-na.html</id><summary type="html">&lt;p&gt;&lt;img alt="mabo" src="http://uds.gnst.jp/rest/img/3jutxwfc0000/s_00mm.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;このようなすごく美味しいそうな食べ物のことを指す。&lt;/p&gt;
+&lt;h1&gt;調味料&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;豆板醤(辛い)&lt;/li&gt;
+&lt;li&gt;豆鼓醤(醤油的な何か)&lt;/li&gt;
+&lt;li&gt;甜麺醤(味噌的な何か)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;作り方&lt;/h1&gt;
+&lt;p&gt;概要&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;炒める&lt;/li&gt;
+&lt;li&gt;軽く煮る&lt;/li&gt;
+&lt;li&gt;とろみをつける&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;1. 炒める&lt;/h2&gt;
+&lt;p&gt;挽き肉, 長ねき, にんにく, 生姜を炒める。&lt;/p&gt;
+&lt;p&gt;豆板醤でお好みに辛味をつける。&lt;/p&gt;
+&lt;h2&gt;2. 軽く煮る&lt;/h2&gt;
+&lt;p&gt;スープをあらかじめ作っておき入れる。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;水250~300ml&lt;/li&gt;
+&lt;li&gt;お酒大さじ2&lt;/li&gt;
+&lt;li&gt;砂糖小さじ1&lt;/li&gt;
+&lt;li&gt;甜麺醤大さじ1&lt;/li&gt;
+&lt;li&gt;豆鼓醤小さじ1~2&lt;/li&gt;
+&lt;li&gt;顆粒だし(鶏ガラor和風)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;人にだちしたら、切った豆腐(1丁)をいれる。&lt;/p&gt;
+&lt;h2&gt;3. とろみをつける&lt;/h2&gt;
+&lt;p&gt;片栗粉大さじ1、水大さじ2で水溶き片栗粉を作って流し入れる。&lt;/p&gt;</summary><category term="Recipe"></category></entry><entry><title>Youtubeの動画URLを取得して再生するSwiftコードを書いた</title><link href="/youtubenodong-hua-urlwoqu-de-shitezai-sheng-suruswiftkodowoshu-ita.html" rel="alternate"></link><updated>2013-06-19T08:28:30+09:00</updated><author><name>yuya yano</name></author><id>tag:,2013-06-19:youtubenodong-hua-urlwoqu-de-shitezai-sheng-suruswiftkodowoshu-ita.html</id><summary type="html">&lt;p&gt;Objective-Cだと以下のプロジェクトで、YoutubeからiOSで再生可能な形式の動画を取得して再生している。その中身を明らかにして、Swiftで書き直す話。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/hellozimi/HCYoutubeParser" title="hellozimi/HCYoutubeParser"&gt;hellozimi/HCYoutubeParser&lt;/a&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;http://www.youtube.com/get_video_info?video_id=&amp;lt;video_id&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;で取得できるデータから引っ張り出すことができる。&lt;/p&gt;
+&lt;p&gt;データがURLのQuery形式になっていて、そのパーサが必要。&lt;/p&gt;
+&lt;p&gt;動画データは、url_encoded_fmt_stream_mapに入っている。&lt;/p&gt;
+&lt;h1&gt;GET&lt;/h1&gt;
+&lt;p&gt;非同期でGETする。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="kd"&gt;let&lt;/span&gt; &lt;span class="nv"&gt;url&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;http://www.youtube.com/get_video_info?video_id=&amp;lt;ID&amp;gt;&amp;quot;&lt;/span&gt;
+&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nv"&gt;req&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;NSMutableURLRequest&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;URL&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="bp"&gt;NSURL&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;string&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;url&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;HTTPMethod&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;GET&amp;quot;&lt;/span&gt;
+&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nv"&gt;task&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;NSURLSession&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sharedSession&lt;/span&gt;&lt;span class="p"&gt;().&lt;/span&gt;&lt;span class="n"&gt;dataTaskWithRequest&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;completionHandler&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;response&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;error&lt;/span&gt; &lt;span class="k"&gt;in&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;error&lt;/span&gt; &lt;span class="p"&gt;==&lt;/span&gt; &lt;span class="kc"&gt;nil&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nv"&gt;result&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;NSString&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;encoding&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;NSUTF8StringEncoding&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;
+        &lt;span class="bp"&gt;println&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;result&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt; &lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="bp"&gt;println&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;error&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;})&lt;/span&gt;
+&lt;span class="n"&gt;task&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;resume&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;GETしたレスポンスをパース&lt;/h1&gt;
+&lt;p&gt;URLクエリ文字列をパースしてDictionaryに入れる。パースしたあとのデータはstringByRemovingPercentEncodingでデコードする必要があるので注意。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nv"&gt;parameters&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;Dictionary&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nb"&gt;String&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;String&lt;/span&gt;&lt;span class="p"&gt;]()&lt;/span&gt;
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;key_val&lt;/span&gt; &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="bp"&gt;split&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;str&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nv"&gt;$0&lt;/span&gt; &lt;span class="p"&gt;==&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;&amp;amp;&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;})&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="kd"&gt;let&lt;/span&gt; &lt;span class="nv"&gt;key_val_array&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;split&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;key_val&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nv"&gt;$0&lt;/span&gt; &lt;span class="p"&gt;==&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;=&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;})&lt;/span&gt;
+    &lt;span class="c1"&gt;//println(key_val_array)&lt;/span&gt;
+    &lt;span class="kd"&gt;let&lt;/span&gt; &lt;span class="nv"&gt;key&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="n"&gt;key_val_array&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+    &lt;span class="kd"&gt;let&lt;/span&gt; &lt;span class="nv"&gt;val&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="n"&gt;key_val_array&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;].&lt;/span&gt;&lt;span class="n"&gt;stringByRemovingPercentEncoding&lt;/span&gt;
+    &lt;span class="n"&gt;parameters&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;key&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="n"&gt;val&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;parameters&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;必要そうなデータ&lt;/h1&gt;
+&lt;p&gt;thumbnail_url, length_seconds, iurl, title, iurlmq, url_encoded_fmt_stream_map, iurlmaxres, iv_module(swfのリンクになってる、つかえるのかな？), vid, iurlsd&lt;/p&gt;</summary><category term="Swift"></category></entry></feed>
