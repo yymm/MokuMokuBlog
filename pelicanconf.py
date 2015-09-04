@@ -23,7 +23,7 @@ AUTHOR_FEED_RSS = None
 
 # About
 DETAILS = ('もくもくです。',
-           '技術系(ﾌﾟﾛｸﾞﾗﾐﾝｸﾞ)の情報と、お家のことと、日記です。')
+           '技術系と、お家と、日記です。')
 
 CATEGORIES = (('Diary', 'book', '#0bd566'),
               ('Programming', 'console', '#555'),
@@ -40,9 +40,9 @@ DEFAULT_PAGINATION = 5
 TWITTER_USERNAME = 'yymm6666'
 HATENA_SHARE = True
 FACEBOOK_APPID = '387525661451951'
-GOOGLEPLUS_SHARE = True
-POCKET_SHARE = True
-TUMBLR_SHARE = True
+#GOOGLEPLUS_SHARE = True
+#POCKET_SHARE = True
+#TUMBLR_SHARE = True
 
 SOCIAL = [('Twitter', 'https://twitter.com/yymm6666'),
           ('Github', 'https://github.com/yymm'),
@@ -53,3 +53,7 @@ SUMMARY_MAX_LENGTH = 10
 DISQUS_SITENAME = "mokumoku"
 
 MD_EXTENSIONS = ['del_ins', 'fenced_code', 'codehilite(css_class=highlight)', 'tables']
+
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['always_modified', 'pelican_youtube', 'tag_cloud']
+ALWAYS_MODIFIED = True
