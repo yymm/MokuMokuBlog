@@ -55,5 +55,5 @@ DISQUS_SITENAME = "mokumoku"
 MD_EXTENSIONS = ['del_ins', 'fenced_code', 'codehilite(css_class=highlight)', 'tables']
 
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['always_modified', 'pelican_youtube', 'tag_cloud']
+PLUGINS = ['always_modified', 'pelican_youtube']
 ALWAYS_MODIFIED = True
