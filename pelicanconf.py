@@ -4,8 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'yuya yano'
 SITENAME = 'もくもくブログ'
-#SITESUBTITLE = ''
-SITEURL = ''
+SITEURL = 'http://blog.muuny-blue.info'
 
 PATH = 'content'
 
