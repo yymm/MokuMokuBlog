@@ -21,8 +21,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # About
-DETAILS = ('もくもくです。',
-           '技術系と、お家と、日記です。')
+DETAILS = ('技術系と、お家と、日記です。')
 
 CATEGORIES = (('Diary', 'book', '#0bd566'),
               ('Programming', 'console', '#555'),
