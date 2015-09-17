@@ -2,7 +2,4 @@
 __pycache__/
 output/
 *.pyc
-content/Diary/
-content/Programming/
-content/家/
 pelican-plugins/
